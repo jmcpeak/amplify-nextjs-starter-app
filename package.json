@@ -9,17 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "aws-amplify": "^6.0.3",
-    "next": "13.5.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "aws-amplify": "6.3.8",
+    "next": "15.0.0-rc.0",
+    "react": "19.0.0-rc-fb9a90fa48-20240614",
+    "react-dom": "19.0.0-rc-fb9a90fa48-20240614"
   },
   "devDependencies": {
-    "@aws-amplify/backend": "^0.5.4",
-    "@aws-amplify/backend-cli": "^0.9.0",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5.3.2"
+    "@aws-amplify/backend": "1.0.4",
+    "@aws-amplify/backend-cli": "1.1.0",
+    "@types/node": "20.14.9",
+    "@types/react": "rc",
+    "@types/react-dom": "rc",
+    "typescript": "5.5.3"
+  },
+  "overrides": {
+    "@types/react": "rc",
+    "@types/react-dom": "rc",
+    "next": "15.0.0-rc.0",
+    "react": "19.0.0-rc-fb9a90fa48-20240614",
+    "react-dom": "19.0.0-rc-fb9a90fa48-20240614",
+    "typescript": "5.5.3"
   }
 }
